@@ -1,0 +1,230 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 2020  Intel Corporation. All rights reserved.
+# Your use of Intel Corporation's design tools, logic functions 
+# and other software and tools, and any partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Intel Program License 
+# Subscription Agreement, the Intel Quartus Prime License Agreement,
+# the Intel FPGA IP License Agreement, or other applicable license
+# agreement, including, without limitation, that your use is for
+# the sole purpose of programming logic devices manufactured by
+# Intel and sold by Intel or its authorized distributors.  Please
+# refer to the applicable agreement for further details, at
+# https://fpgasoftware.intel.com/eula.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus Prime
+# Version 20.1.1 Build 720 11/11/2020 SJ Standard Edition
+# Date created = 17:26:40  January 28, 2023
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		top_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus Prime software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone IV E"
+set_global_assignment -name DEVICE EP4CE15F23C8
+set_global_assignment -name TOP_LEVEL_ENTITY top
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 20.1.1
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "17:26:40  JANUARY 28, 2023"
+set_global_assignment -name LAST_QUARTUS_VERSION "20.1.1 Standard Edition"
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 1
+set_global_assignment -name NOMINAL_CORE_SUPPLY_VOLTAGE 1.2V
+set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (Verilog)"
+set_global_assignment -name EDA_TIME_SCALE "1 ps" -section_id eda_simulation
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "VERILOG HDL" -section_id eda_simulation
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_timing
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_symbol
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_signal_integrity
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_boundary_scan
+set_global_assignment -name ENABLE_OCT_DONE OFF
+set_global_assignment -name USE_CONFIGURATION_DEVICE OFF
+set_global_assignment -name CRC_ERROR_OPEN_DRAIN OFF
+set_global_assignment -name RESERVE_ALL_UNUSED_PINS_WEAK_PULLUP "AS INPUT TRI-STATED"
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "3.3-V LVTTL"
+set_global_assignment -name OUTPUT_IO_TIMING_NEAR_END_VMEAS "HALF VCCIO" -rise
+set_global_assignment -name OUTPUT_IO_TIMING_NEAR_END_VMEAS "HALF VCCIO" -fall
+set_global_assignment -name OUTPUT_IO_TIMING_FAR_END_VMEAS "HALF SIGNAL SWING" -rise
+set_global_assignment -name OUTPUT_IO_TIMING_FAR_END_VMEAS "HALF SIGNAL SWING" -fall
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+
+set_location_assignment PIN_T2 -to clk50
+set_location_assignment PIN_AA13 -to n_rst
+set_location_assignment PIN_V2 -to SDRAM_A[0]
+set_location_assignment PIN_V1 -to SDRAM_A[1]
+set_location_assignment PIN_U2 -to SDRAM_A[2]
+set_location_assignment PIN_U1 -to SDRAM_A[3]
+set_location_assignment PIN_V3 -to SDRAM_A[4]
+set_location_assignment PIN_V4 -to SDRAM_A[5]
+set_location_assignment PIN_Y2 -to SDRAM_A[6]
+set_location_assignment PIN_AA1 -to SDRAM_A[7]
+set_location_assignment PIN_Y3 -to SDRAM_A[8]
+set_location_assignment PIN_V5 -to SDRAM_A[9]
+set_location_assignment PIN_W1 -to SDRAM_A[10]
+set_location_assignment PIN_Y4 -to SDRAM_A[11]
+set_location_assignment PIN_V6 -to SDRAM_A[12]
+set_location_assignment PIN_Y1 -to SDRAM_BA[0]
+set_location_assignment PIN_W2 -to SDRAM_BA[1]
+set_location_assignment PIN_AA4 -to SDRAM_nCAS
+set_location_assignment PIN_W6 -to SDRAM_CKE
+set_location_assignment PIN_Y6 -to SDRAM_CLK
+set_location_assignment PIN_AA3 -to SDRAM_nCS
+set_location_assignment PIN_AA10 -to SDRAM_DQ[0]
+set_location_assignment PIN_AB9 -to SDRAM_DQ[1]
+set_location_assignment PIN_AA9 -to SDRAM_DQ[2]
+set_location_assignment PIN_AB8 -to SDRAM_DQ[3]
+set_location_assignment PIN_AA8 -to SDRAM_DQ[4]
+set_location_assignment PIN_AB7 -to SDRAM_DQ[5]
+set_location_assignment PIN_AA7 -to SDRAM_DQ[6]
+set_location_assignment PIN_AB5 -to SDRAM_DQ[7]
+set_location_assignment PIN_Y7 -to SDRAM_DQ[8]
+set_location_assignment PIN_W8 -to SDRAM_DQ[9]
+set_location_assignment PIN_Y8 -to SDRAM_DQ[10]
+set_location_assignment PIN_V9 -to SDRAM_DQ[11]
+set_location_assignment PIN_V10 -to SDRAM_DQ[12]
+set_location_assignment PIN_Y10 -to SDRAM_DQ[13]
+set_location_assignment PIN_W10 -to SDRAM_DQ[14]
+set_location_assignment PIN_V11 -to SDRAM_DQ[15]
+set_location_assignment PIN_AB4 -to SDRAM_nWE
+set_location_assignment PIN_W7 -to SDRAM_DQMH
+set_location_assignment PIN_AA5 -to SDRAM_DQML
+set_location_assignment PIN_AB3 -to SDRAM_nRAS
+set_location_assignment PIN_P2 -to sound
+set_location_assignment PIN_J21 -to hsync
+set_location_assignment PIN_J22 -to vsync
+set_location_assignment PIN_N20 -to rgb[15]
+set_location_assignment PIN_B21 -to rgb[14]
+set_location_assignment PIN_M20 -to rgb[13]
+set_location_assignment PIN_N19 -to rgb[12]
+set_location_assignment PIN_M19 -to rgb[11]
+set_location_assignment PIN_D22 -to rgb[10]
+set_location_assignment PIN_E21 -to rgb[9]
+set_location_assignment PIN_C22 -to rgb[8]
+set_location_assignment PIN_D21 -to rgb[7]
+set_location_assignment PIN_C21 -to rgb[6]
+set_location_assignment PIN_B22 -to rgb[5]
+set_location_assignment PIN_H21 -to rgb[4]
+set_location_assignment PIN_H22 -to rgb[3]
+set_location_assignment PIN_F21 -to rgb[2]
+set_location_assignment PIN_F22 -to rgb[1]
+set_location_assignment PIN_E22 -to rgb[0]
+set_location_assignment PIN_C3 -to seg[0]
+set_location_assignment PIN_A3 -to seg[1]
+set_location_assignment PIN_A5 -to seg[2]
+set_location_assignment PIN_B1 -to seg[3]
+set_location_assignment PIN_B2 -to seg[4]
+set_location_assignment PIN_B4 -to seg[5]
+set_location_assignment PIN_C4 -to seg[6]
+set_location_assignment PIN_A4 -to seg[7]
+set_location_assignment PIN_B5 -to dig[0]
+set_location_assignment PIN_B3 -to dig[1]
+set_location_assignment PIN_B6 -to dig[2]
+
+set_location_assignment PIN_M2 -to PS2_DAT
+set_location_assignment PIN_N2 -to PS2_CLK
+
+set_location_assignment PIN_AA15 -to SD_clk
+set_location_assignment PIN_AA16 -to SD_cs
+set_location_assignment PIN_AB15 -to SD_datain
+set_location_assignment PIN_AB14 -to SD_dataout
+set_location_assignment PIN_AB13 -to SD_cd
+
+set_location_assignment PIN_R1 -to SD_cs_140
+set_location_assignment PIN_P1 -to SD_clk_140
+set_location_assignment PIN_N1 -to SD_datain_140
+set_location_assignment PIN_M1 -to SD_dataout_140
+set_location_assignment PIN_A6 -to leds[0]
+set_location_assignment PIN_B7 -to leds[1]
+set_location_assignment PIN_A7 -to leds[2]
+set_location_assignment PIN_B8 -to leds[3]
+set_location_assignment PIN_A8 -to leds[4]
+
+
+set_global_assignment -name PARTITION_NETLIST_TYPE POST_FIT -section_id "vga1024x768_v2:vga"
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id "vga1024x768_v2:vga"
+set_global_assignment -name PARTITION_COLOR 39423 -section_id "vga1024x768_v2:vga"
+set_global_assignment -name PARTITION_NETLIST_TYPE POST_FIT -section_id "sdram:ram1"
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id "sdram:ram1"
+set_global_assignment -name PARTITION_COLOR 52377 -section_id "sdram:ram1"
+set_global_assignment -name PARTITION_NETLIST_TYPE POST_FIT -section_id "qyou:qu1"
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id "qyou:qu1"
+set_global_assignment -name PARTITION_COLOR 16776960 -section_id "qyou:qu1"
+set_global_assignment -name PARTITION_NETLIST_TYPE POST_FIT -section_id "segm:hex1"
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id "segm:hex1"
+set_global_assignment -name PARTITION_COLOR 16711935 -section_id "segm:hex1"
+set_global_assignment -name PARTITION_NETLIST_TYPE POST_FIT -section_id "mag_keys:mkey"
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id "mag_keys:mkey"
+set_global_assignment -name PARTITION_COLOR 65535 -section_id "mag_keys:mkey"
+set_location_assignment PIN_E4 -to led0
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to led0
+set_global_assignment -name VERILOG_FILE src/6502/ag6502.v
+set_global_assignment -name VERILOG_FILE src/magkey/mringfifo.v
+set_global_assignment -name VERILOG_FILE src/magkey/kcode.v
+set_global_assignment -name QIP_FILE src/magkey/fifo.qip
+set_global_assignment -name VERILOG_FILE src/magkey/altera_up_ps2_data_in.v
+set_global_assignment -name VERILOG_FILE src/magkey/altera_up_ps2_command_out.v
+set_global_assignment -name VERILOG_FILE src/magkey/altera_up_ps2.v
+set_global_assignment -name QIP_FILE src/alt/k555id7_2.qip
+set_global_assignment -name VERILOG_FILE src/mag_keys.v
+set_global_assignment -name QIP_FILE src/alt/d21.qip
+set_global_assignment -name QIP_FILE src/alt/k555id7.qip
+set_global_assignment -name QIP_FILE src/alt/d14.qip
+set_global_assignment -name QIP_FILE src/alt/d3.qip
+set_global_assignment -name VHDL_FILE src/disk_ii_rom.vhd
+set_global_assignment -name QIP_FILE src/alt/disk_II_ram.qip
+set_global_assignment -name VERILOG_FILE src/fdd140.v
+set_global_assignment -name QIP_FILE src/alt/romfdd840.qip
+set_global_assignment -name QIP_FILE src/alt/disk2aim_ram.qip
+set_global_assignment -name QIP_FILE src/alt/fddadr.qip
+set_global_assignment -name VERILOG_FILE src/fdd840aim.v
+set_global_assignment -name VERILOG_FILE src/sd/sd_write.v
+set_global_assignment -name VERILOG_FILE src/sd/sd_top.v
+set_global_assignment -name VERILOG_FILE src/sd/sd_read.v
+set_global_assignment -name VERILOG_FILE src/sd/sd_initial.v
+set_global_assignment -name VERILOG_FILE src/sd/sd_card.v
+set_global_assignment -name QIP_FILE src/t65/t65.qip
+set_global_assignment -name VERILOG_FILE src/agclk.v
+set_global_assignment -name QIP_FILE src/alt/dd6.qip
+set_global_assignment -name VERILOG_FILE src/agat9.v
+set_global_assignment -name QIP_FILE src/alt/cgvrcolor.qip
+set_global_assignment -name QIP_FILE src/alt/cgsrcolor.qip
+set_global_assignment -name QIP_FILE src/alt/dd64.qip
+set_global_assignment -name QIP_FILE src/alt/ramcachevga.qip
+set_global_assignment -name VERILOG_FILE src/vga1024x768_v2.v
+set_global_assignment -name SYSTEMVERILOG_FILE src/sdram.sv
+set_global_assignment -name QIP_FILE src/alt/ramcache.qip
+set_global_assignment -name VERILOG_FILE src/qyou.v
+set_global_assignment -name QIP_FILE src/alt/sysclk.qip
+set_global_assignment -name VERILOG_FILE src/hexseg.v
+set_global_assignment -name VERILOG_FILE src/top.v
+set_global_assignment -name VERILOG_FILE src/fdd840cntrl.v
+set_global_assignment -name VERILOG_FILE src/fdd140cntrl.v
+set_global_assignment -name QIP_FILE src/alt/dd6b.qip
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
+set_instance_assignment -name PARTITION_HIERARCHY mkey_8d0b1 -to "mag_keys:mkey" -section_id "mag_keys:mkey"
+set_instance_assignment -name PARTITION_HIERARCHY qu1_d3b21 -to "qyou:qu1" -section_id "qyou:qu1"
+set_instance_assignment -name PARTITION_HIERARCHY ram1_deab1 -to "sdram:ram1" -section_id "sdram:ram1"
+set_instance_assignment -name PARTITION_HIERARCHY hex1_54021 -to "segm:hex1" -section_id "segm:hex1"
+set_instance_assignment -name PARTITION_HIERARCHY vga_0caf1 -to "vga1024x768_v2:vga" -section_id "vga1024x768_v2:vga"

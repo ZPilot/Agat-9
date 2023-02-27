@@ -1,0 +1,20 @@
+Warning (10273): Verilog HDL warning at ag6502.v(73): extended using "x" or "z" File: /workspace/verilog/cycl4/new/agat9/src/6502/ag6502.v Line: 73
+Warning (10273): Verilog HDL warning at ag6502.v(164): extended using "x" or "z" File: /workspace/verilog/cycl4/new/agat9/src/6502/ag6502.v Line: 164
+Warning (10273): Verilog HDL warning at ag6502.v(182): extended using "x" or "z" File: /workspace/verilog/cycl4/new/agat9/src/6502/ag6502.v Line: 182
+Warning (10273): Verilog HDL warning at ag6502.v(186): extended using "x" or "z" File: /workspace/verilog/cycl4/new/agat9/src/6502/ag6502.v Line: 186
+Warning (10273): Verilog HDL warning at ag6502.v(196): extended using "x" or "z" File: /workspace/verilog/cycl4/new/agat9/src/6502/ag6502.v Line: 196
+Info (10281): Verilog HDL Declaration information at ag6502.v(122): object "ALU" differs only in case from object "alu" in the same scope File: /workspace/verilog/cycl4/new/agat9/src/6502/ag6502.v Line: 122
+Warning (10268): Verilog HDL information at mag_keys.v(85): always construct contains both blocking and non-blocking assignments File: /workspace/verilog/cycl4/new/agat9/src/mag_keys.v Line: 85
+Warning (10268): Verilog HDL information at mag_keys.v(129): always construct contains both blocking and non-blocking assignments File: /workspace/verilog/cycl4/new/agat9/src/mag_keys.v Line: 129
+Warning (10268): Verilog HDL information at fdd140.v(93): always construct contains both blocking and non-blocking assignments File: /workspace/verilog/cycl4/new/agat9/src/fdd140.v Line: 93
+Warning (10268): Verilog HDL information at fdd140.v(142): always construct contains both blocking and non-blocking assignments File: /workspace/verilog/cycl4/new/agat9/src/fdd140.v Line: 142
+Warning (10273): Verilog HDL warning at agat9.v(275): extended using "x" or "z" File: /workspace/verilog/cycl4/new/agat9/src/agat9.v Line: 275
+Warning (10273): Verilog HDL warning at agat9.v(276): extended using "x" or "z" File: /workspace/verilog/cycl4/new/agat9/src/agat9.v Line: 276
+Warning (10273): Verilog HDL warning at agat9.v(277): extended using "x" or "z" File: /workspace/verilog/cycl4/new/agat9/src/agat9.v Line: 277
+Warning (10273): Verilog HDL warning at agat9.v(278): extended using "x" or "z" File: /workspace/verilog/cycl4/new/agat9/src/agat9.v Line: 278
+Warning (10273): Verilog HDL warning at agat9.v(280): extended using "x" or "z" File: /workspace/verilog/cycl4/new/agat9/src/agat9.v Line: 280
+Warning (10273): Verilog HDL warning at agat9.v(281): extended using "x" or "z" File: /workspace/verilog/cycl4/new/agat9/src/agat9.v Line: 281
+Warning (10273): Verilog HDL warning at sdram.sv(127): extended using "x" or "z" File: /workspace/verilog/cycl4/new/agat9/src/sdram.sv Line: 127
+Warning (10268): Verilog HDL information at qyou.v(47): always construct contains both blocking and non-blocking assignments File: /workspace/verilog/cycl4/new/agat9/src/qyou.v Line: 47
+Warning (10268): Verilog HDL information at hexseg.v(70): always construct contains both blocking and non-blocking assignments File: /workspace/verilog/cycl4/new/agat9/src/hexseg.v Line: 70
+Warning (10268): Verilog HDL information at fdd140cntrl.v(108): always construct contains both blocking and non-blocking assignments File: /workspace/verilog/cycl4/new/agat9/src/fdd140cntrl.v Line: 108

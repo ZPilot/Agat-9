@@ -1,0 +1,1001 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'cristall1|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -17.653
+TNS   : -2395.614
+
+Type  : Slow 1200mV 85C Model Setup 'agat9:agat|agclk:aclk|phi_1'
+Slack : -11.750
+TNS   : -1289.915
+
+Type  : Slow 1200mV 85C Model Setup 'cristall1|altpll_component|auto_generated|pll1|clk[2]'
+Slack : -11.656
+TNS   : -364.153
+
+Type  : Slow 1200mV 85C Model Setup 'agat9:agat|agclk:aclk|phi_2'
+Slack : -11.482
+TNS   : -86.902
+
+Type  : Slow 1200mV 85C Model Setup 'fdd840cntrl:k1|fdd840aim:fdd840|spin~0'
+Slack : -10.527
+TNS   : -380.554
+
+Type  : Slow 1200mV 85C Model Setup 'cristall1|altpll_component|auto_generated|pll1|clk[3]'
+Slack : -9.558
+TNS   : -497.171
+
+Type  : Slow 1200mV 85C Model Setup 'vga1024x768_v2:vga|countXapple[1]'
+Slack : -9.256
+TNS   : -36.838
+
+Type  : Slow 1200mV 85C Model Setup 'cristall1|altpll_component|auto_generated|pll1|clk[1]'
+Slack : -9.171
+TNS   : -332.931
+
+Type  : Slow 1200mV 85C Model Setup 'vga1024x768_v2:vga|x[0]'
+Slack : -7.268
+TNS   : -44.740
+
+Type  : Slow 1200mV 85C Model Setup 'clk50'
+Slack : -6.974
+TNS   : -95.358
+
+Type  : Slow 1200mV 85C Model Setup 'agat9:agat|clk_div:cpuclks|clksys'
+Slack : -6.911
+TNS   : -42.389
+
+Type  : Slow 1200mV 85C Model Setup 'fdd140cntrl:k2|sd_top:sdcrd2|sd_card:sdcrd1|SD_clk'
+Slack : -6.885
+TNS   : -2378.094
+
+Type  : Slow 1200mV 85C Model Setup 'fdd840cntrl:k1|sd_top:sdcrd1|sd_card:sdcrd1|SD_clk'
+Slack : -6.259
+TNS   : -2286.283
+
+Type  : Slow 1200mV 85C Model Setup 'mag_keys:mkey|altera_up_ps2:ps2|altera_up_ps2_data_in:PS2_Data_In|received_data_en'
+Slack : -5.505
+TNS   : -486.874
+
+Type  : Slow 1200mV 85C Model Setup 'segm:hex1|_step'
+Slack : -5.505
+TNS   : -40.625
+
+Type  : Slow 1200mV 85C Model Setup 'fdd840cntrl:k1|sd_top:sdcrd1|sd_card:sdcrd1|sd_read:sd_read_inst|myvalid_o'
+Slack : -2.196
+TNS   : -22.589
+
+Type  : Slow 1200mV 85C Model Setup 'fdd140cntrl:k2|sd_top:sdcrd2|sd_card:sdcrd1|sd_read:sd_read_inst|myvalid_o'
+Slack : -1.685
+TNS   : -15.116
+
+Type  : Slow 1200mV 85C Model Setup 'vga1024x768_v2:vga|y[8]'
+Slack : -1.006
+TNS   : -3.696
+
+Type  : Slow 1200mV 85C Model Setup 'fdd140cntrl:k2|sd_top:sdcrd2|sd_card:sdcrd1|count_clk[3]'
+Slack : -0.719
+TNS   : -0.719
+
+Type  : Slow 1200mV 85C Model Setup 'fdd840cntrl:k1|sd_top:sdcrd1|sd_card:sdcrd1|count_clk[3]'
+Slack : -0.656
+TNS   : -0.656
+
+Type  : Slow 1200mV 85C Model Hold 'agat9:agat|agclk:aclk|phi_1'
+Slack : -0.812
+TNS   : -2.927
+
+Type  : Slow 1200mV 85C Model Hold 'cristall1|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -0.748
+TNS   : -0.999
+
+Type  : Slow 1200mV 85C Model Hold 'cristall1|altpll_component|auto_generated|pll1|clk[3]'
+Slack : -0.271
+TNS   : -0.530
+
+Type  : Slow 1200mV 85C Model Hold 'agat9:agat|agclk:aclk|phi_2'
+Slack : -0.027
+TNS   : -0.027
+
+Type  : Slow 1200mV 85C Model Hold 'agat9:agat|clk_div:cpuclks|clksys'
+Slack : 0.314
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'fdd840cntrl:k1|sd_top:sdcrd1|sd_card:sdcrd1|SD_clk'
+Slack : 0.435
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'fdd140cntrl:k2|sd_top:sdcrd2|sd_card:sdcrd1|SD_clk'
+Slack : 0.437
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'clk50'
+Slack : 0.454
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'cristall1|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 0.454
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'cristall1|altpll_component|auto_generated|pll1|clk[2]'
+Slack : 0.455
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'mag_keys:mkey|altera_up_ps2:ps2|altera_up_ps2_data_in:PS2_Data_In|received_data_en'
+Slack : 0.455
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'fdd840cntrl:k1|fdd840aim:fdd840|spin~0'
+Slack : 0.456
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'fdd140cntrl:k2|sd_top:sdcrd2|sd_card:sdcrd1|sd_read:sd_read_inst|myvalid_o'
+Slack : 0.467
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'segm:hex1|_step'
+Slack : 0.467
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'fdd840cntrl:k1|sd_top:sdcrd1|sd_card:sdcrd1|sd_read:sd_read_inst|myvalid_o'
+Slack : 0.468
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'vga1024x768_v2:vga|y[8]'
+Slack : 0.497
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'vga1024x768_v2:vga|countXapple[1]'
+Slack : 0.534
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'fdd840cntrl:k1|sd_top:sdcrd1|sd_card:sdcrd1|count_clk[3]'
+Slack : 0.541
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'fdd140cntrl:k2|sd_top:sdcrd2|sd_card:sdcrd1|count_clk[3]'
+Slack : 0.606
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'vga1024x768_v2:vga|x[0]'
+Slack : 0.751
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'agat9:agat|agclk:aclk|phi_1'
+Slack : -10.628
+TNS   : -597.758
+
+Type  : Slow 1200mV 85C Model Recovery 'cristall1|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -8.930
+TNS   : -739.916
+
+Type  : Slow 1200mV 85C Model Recovery 'fdd840cntrl:k1|sd_top:sdcrd1|sd_card:sdcrd1|SD_clk'
+Slack : -4.777
+TNS   : -209.219
+
+Type  : Slow 1200mV 85C Model Recovery 'fdd840cntrl:k1|fdd840aim:fdd840|spin~0'
+Slack : -4.653
+TNS   : -154.703
+
+Type  : Slow 1200mV 85C Model Recovery 'fdd140cntrl:k2|sd_top:sdcrd2|sd_card:sdcrd1|SD_clk'
+Slack : -4.228
+TNS   : -182.365
+
+Type  : Slow 1200mV 85C Model Recovery 'fdd140cntrl:k2|sd_top:sdcrd2|sd_card:sdcrd1|sd_read:sd_read_inst|myvalid_o'
+Slack : -3.475
+TNS   : -45.175
+
+Type  : Slow 1200mV 85C Model Recovery 'fdd840cntrl:k1|sd_top:sdcrd1|sd_card:sdcrd1|sd_read:sd_read_inst|myvalid_o'
+Slack : -3.261
+TNS   : -45.199
+
+Type  : Slow 1200mV 85C Model Recovery 'fdd840cntrl:k1|fdd840aim:fdd840|rk[7]'
+Slack : -3.202
+TNS   : -3.202
+
+Type  : Slow 1200mV 85C Model Recovery 'vga1024x768_v2:vga|y[8]'
+Slack : -0.846
+TNS   : -0.846
+
+Type  : Slow 1200mV 85C Model Recovery 'cristall1|altpll_component|auto_generated|pll1|clk[2]'
+Slack : 2.896
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'cristall1|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 5.971
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'agat9:agat|agclk:aclk|phi_1'
+Slack : 1.021
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'fdd840cntrl:k1|fdd840aim:fdd840|spin~0'
+Slack : 1.072
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'vga1024x768_v2:vga|y[8]'
+Slack : 1.144
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'fdd840cntrl:k1|sd_top:sdcrd1|sd_card:sdcrd1|SD_clk'
+Slack : 1.793
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'fdd140cntrl:k2|sd_top:sdcrd2|sd_card:sdcrd1|SD_clk'
+Slack : 1.918
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'fdd840cntrl:k1|sd_top:sdcrd1|sd_card:sdcrd1|sd_read:sd_read_inst|myvalid_o'
+Slack : 2.564
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'fdd140cntrl:k2|sd_top:sdcrd2|sd_card:sdcrd1|sd_read:sd_read_inst|myvalid_o'
+Slack : 2.913
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'cristall1|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 3.231
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'cristall1|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 3.446
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'fdd840cntrl:k1|fdd840aim:fdd840|rk[7]'
+Slack : 3.551
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'cristall1|altpll_component|auto_generated|pll1|clk[2]'
+Slack : 4.824
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'agat9:agat|agclk:aclk|phi_1'
+Slack : -3.201
+TNS   : -333.996
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'fdd840cntrl:k1|fdd840aim:fdd840|spin~0'
+Slack : -3.201
+TNS   : -103.261
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'agat9:agat|clk_div:cpuclks|clksys'
+Slack : -3.201
+TNS   : -40.251
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'fdd140cntrl:k2|sd_top:sdcrd2|sd_card:sdcrd1|SD_clk'
+Slack : -1.487
+TNS   : -779.188
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'fdd840cntrl:k1|sd_top:sdcrd1|sd_card:sdcrd1|SD_clk'
+Slack : -1.487
+TNS   : -779.188
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'mag_keys:mkey|altera_up_ps2:ps2|altera_up_ps2_data_in:PS2_Data_In|received_data_en'
+Slack : -1.487
+TNS   : -187.362
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'vga1024x768_v2:vga|x[0]'
+Slack : -1.487
+TNS   : -22.305
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'fdd840cntrl:k1|sd_top:sdcrd1|sd_card:sdcrd1|sd_read:sd_read_inst|myvalid_o'
+Slack : -1.487
+TNS   : -20.818
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'fdd140cntrl:k2|sd_top:sdcrd2|sd_card:sdcrd1|sd_read:sd_read_inst|myvalid_o'
+Slack : -1.487
+TNS   : -19.331
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'segm:hex1|_step'
+Slack : -1.487
+TNS   : -19.331
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'agat9:agat|agclk:aclk|phi_2'
+Slack : -1.487
+TNS   : -11.896
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'vga1024x768_v2:vga|y[8]'
+Slack : -1.487
+TNS   : -8.922
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'vga1024x768_v2:vga|countXapple[1]'
+Slack : -1.487
+TNS   : -5.948
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'fdd140cntrl:k2|sd_top:sdcrd2|sd_card:sdcrd1|count_clk[3]'
+Slack : -1.487
+TNS   : -1.487
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'fdd840cntrl:k1|fdd840aim:fdd840|rk[7]'
+Slack : -1.487
+TNS   : -1.487
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'fdd840cntrl:k1|sd_top:sdcrd1|sd_card:sdcrd1|count_clk[3]'
+Slack : -1.487
+TNS   : -1.487
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'cristall1|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 4.672
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'cristall1|altpll_component|auto_generated|pll1|clk[2]'
+Slack : 4.690
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'cristall1|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 4.697
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'cristall1|altpll_component|auto_generated|pll1|clk[3]'
+Slack : 7.371
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk50'
+Slack : 9.633
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'cristall1|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -16.235
+TNS   : -2184.502
+
+Type  : Slow 1200mV 0C Model Setup 'agat9:agat|agclk:aclk|phi_2'
+Slack : -10.937
+TNS   : -81.563
+
+Type  : Slow 1200mV 0C Model Setup 'agat9:agat|agclk:aclk|phi_1'
+Slack : -10.716
+TNS   : -1191.082
+
+Type  : Slow 1200mV 0C Model Setup 'cristall1|altpll_component|auto_generated|pll1|clk[2]'
+Slack : -10.704
+TNS   : -334.415
+
+Type  : Slow 1200mV 0C Model Setup 'fdd840cntrl:k1|fdd840aim:fdd840|spin~0'
+Slack : -9.862
+TNS   : -354.202
+
+Type  : Slow 1200mV 0C Model Setup 'vga1024x768_v2:vga|countXapple[1]'
+Slack : -8.865
+TNS   : -35.279
+
+Type  : Slow 1200mV 0C Model Setup 'cristall1|altpll_component|auto_generated|pll1|clk[3]'
+Slack : -8.787
+TNS   : -452.358
+
+Type  : Slow 1200mV 0C Model Setup 'cristall1|altpll_component|auto_generated|pll1|clk[1]'
+Slack : -8.272
+TNS   : -302.854
+
+Type  : Slow 1200mV 0C Model Setup 'vga1024x768_v2:vga|x[0]'
+Slack : -6.822
+TNS   : -40.400
+
+Type  : Slow 1200mV 0C Model Setup 'agat9:agat|clk_div:cpuclks|clksys'
+Slack : -6.524
+TNS   : -39.968
+
+Type  : Slow 1200mV 0C Model Setup 'clk50'
+Slack : -6.448
+TNS   : -88.242
+
+Type  : Slow 1200mV 0C Model Setup 'fdd140cntrl:k2|sd_top:sdcrd2|sd_card:sdcrd1|SD_clk'
+Slack : -6.400
+TNS   : -2200.878
+
+Type  : Slow 1200mV 0C Model Setup 'fdd840cntrl:k1|sd_top:sdcrd1|sd_card:sdcrd1|SD_clk'
+Slack : -5.923
+TNS   : -2116.980
+
+Type  : Slow 1200mV 0C Model Setup 'mag_keys:mkey|altera_up_ps2:ps2|altera_up_ps2_data_in:PS2_Data_In|received_data_en'
+Slack : -5.126
+TNS   : -446.755
+
+Type  : Slow 1200mV 0C Model Setup 'segm:hex1|_step'
+Slack : -5.117
+TNS   : -37.334
+
+Type  : Slow 1200mV 0C Model Setup 'fdd840cntrl:k1|sd_top:sdcrd1|sd_card:sdcrd1|sd_read:sd_read_inst|myvalid_o'
+Slack : -1.930
+TNS   : -19.839
+
+Type  : Slow 1200mV 0C Model Setup 'fdd140cntrl:k2|sd_top:sdcrd2|sd_card:sdcrd1|sd_read:sd_read_inst|myvalid_o'
+Slack : -1.408
+TNS   : -12.350
+
+Type  : Slow 1200mV 0C Model Setup 'vga1024x768_v2:vga|y[8]'
+Slack : -0.822
+TNS   : -2.982
+
+Type  : Slow 1200mV 0C Model Setup 'fdd140cntrl:k2|sd_top:sdcrd2|sd_card:sdcrd1|count_clk[3]'
+Slack : -0.618
+TNS   : -0.618
+
+Type  : Slow 1200mV 0C Model Setup 'fdd840cntrl:k1|sd_top:sdcrd1|sd_card:sdcrd1|count_clk[3]'
+Slack : -0.562
+TNS   : -0.562
+
+Type  : Slow 1200mV 0C Model Hold 'cristall1|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -0.839
+TNS   : -1.209
+
+Type  : Slow 1200mV 0C Model Hold 'agat9:agat|agclk:aclk|phi_1'
+Slack : -0.734
+TNS   : -2.693
+
+Type  : Slow 1200mV 0C Model Hold 'cristall1|altpll_component|auto_generated|pll1|clk[3]'
+Slack : -0.389
+TNS   : -0.766
+
+Type  : Slow 1200mV 0C Model Hold 'agat9:agat|agclk:aclk|phi_2'
+Slack : -0.072
+TNS   : -0.072
+
+Type  : Slow 1200mV 0C Model Hold 'mag_keys:mkey|altera_up_ps2:ps2|altera_up_ps2_data_in:PS2_Data_In|received_data_en'
+Slack : 0.342
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'agat9:agat|clk_div:cpuclks|clksys'
+Slack : 0.370
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'fdd840cntrl:k1|sd_top:sdcrd1|sd_card:sdcrd1|SD_clk'
+Slack : 0.388
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'fdd140cntrl:k2|sd_top:sdcrd2|sd_card:sdcrd1|SD_clk'
+Slack : 0.389
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'clk50'
+Slack : 0.402
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'cristall1|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 0.402
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'cristall1|altpll_component|auto_generated|pll1|clk[2]'
+Slack : 0.403
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'fdd840cntrl:k1|fdd840aim:fdd840|spin~0'
+Slack : 0.403
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'segm:hex1|_step'
+Slack : 0.418
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'fdd840cntrl:k1|sd_top:sdcrd1|sd_card:sdcrd1|sd_read:sd_read_inst|myvalid_o'
+Slack : 0.419
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'fdd140cntrl:k2|sd_top:sdcrd2|sd_card:sdcrd1|sd_read:sd_read_inst|myvalid_o'
+Slack : 0.422
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'vga1024x768_v2:vga|y[8]'
+Slack : 0.445
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'fdd840cntrl:k1|sd_top:sdcrd1|sd_card:sdcrd1|count_clk[3]'
+Slack : 0.496
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'vga1024x768_v2:vga|countXapple[1]'
+Slack : 0.500
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'fdd140cntrl:k2|sd_top:sdcrd2|sd_card:sdcrd1|count_clk[3]'
+Slack : 0.555
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'vga1024x768_v2:vga|x[0]'
+Slack : 0.606
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'agat9:agat|agclk:aclk|phi_1'
+Slack : -10.051
+TNS   : -556.867
+
+Type  : Slow 1200mV 0C Model Recovery 'cristall1|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -8.177
+TNS   : -660.586
+
+Type  : Slow 1200mV 0C Model Recovery 'fdd840cntrl:k1|sd_top:sdcrd1|sd_card:sdcrd1|SD_clk'
+Slack : -4.469
+TNS   : -196.372
+
+Type  : Slow 1200mV 0C Model Recovery 'fdd840cntrl:k1|fdd840aim:fdd840|spin~0'
+Slack : -4.390
+TNS   : -145.818
+
+Type  : Slow 1200mV 0C Model Recovery 'fdd140cntrl:k2|sd_top:sdcrd2|sd_card:sdcrd1|SD_clk'
+Slack : -3.933
+TNS   : -169.922
+
+Type  : Slow 1200mV 0C Model Recovery 'fdd140cntrl:k2|sd_top:sdcrd2|sd_card:sdcrd1|sd_read:sd_read_inst|myvalid_o'
+Slack : -3.631
+TNS   : -47.203
+
+Type  : Slow 1200mV 0C Model Recovery 'fdd840cntrl:k1|sd_top:sdcrd1|sd_card:sdcrd1|sd_read:sd_read_inst|myvalid_o'
+Slack : -3.266
+TNS   : -45.321
+
+Type  : Slow 1200mV 0C Model Recovery 'fdd840cntrl:k1|fdd840aim:fdd840|rk[7]'
+Slack : -2.966
+TNS   : -2.966
+
+Type  : Slow 1200mV 0C Model Recovery 'vga1024x768_v2:vga|y[8]'
+Slack : -0.682
+TNS   : -0.682
+
+Type  : Slow 1200mV 0C Model Recovery 'cristall1|altpll_component|auto_generated|pll1|clk[2]'
+Slack : 3.133
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'cristall1|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 6.195
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'agat9:agat|agclk:aclk|phi_1'
+Slack : 0.931
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'fdd840cntrl:k1|fdd840aim:fdd840|spin~0'
+Slack : 0.967
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'vga1024x768_v2:vga|y[8]'
+Slack : 0.994
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'fdd840cntrl:k1|sd_top:sdcrd1|sd_card:sdcrd1|SD_clk'
+Slack : 1.924
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'fdd140cntrl:k2|sd_top:sdcrd2|sd_card:sdcrd1|SD_clk'
+Slack : 1.989
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'fdd840cntrl:k1|sd_top:sdcrd1|sd_card:sdcrd1|sd_read:sd_read_inst|myvalid_o'
+Slack : 2.414
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'fdd140cntrl:k2|sd_top:sdcrd2|sd_card:sdcrd1|sd_read:sd_read_inst|myvalid_o'
+Slack : 2.817
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'cristall1|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 2.879
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'cristall1|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 3.128
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'fdd840cntrl:k1|fdd840aim:fdd840|rk[7]'
+Slack : 3.302
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'cristall1|altpll_component|auto_generated|pll1|clk[2]'
+Slack : 4.631
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'agat9:agat|agclk:aclk|phi_1'
+Slack : -3.201
+TNS   : -335.816
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'fdd840cntrl:k1|fdd840aim:fdd840|spin~0'
+Slack : -3.201
+TNS   : -103.261
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'agat9:agat|clk_div:cpuclks|clksys'
+Slack : -3.201
+TNS   : -40.251
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'fdd140cntrl:k2|sd_top:sdcrd2|sd_card:sdcrd1|SD_clk'
+Slack : -1.487
+TNS   : -779.188
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'fdd840cntrl:k1|sd_top:sdcrd1|sd_card:sdcrd1|SD_clk'
+Slack : -1.487
+TNS   : -779.188
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'mag_keys:mkey|altera_up_ps2:ps2|altera_up_ps2_data_in:PS2_Data_In|received_data_en'
+Slack : -1.487
+TNS   : -187.362
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'vga1024x768_v2:vga|x[0]'
+Slack : -1.487
+TNS   : -22.305
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'fdd840cntrl:k1|sd_top:sdcrd1|sd_card:sdcrd1|sd_read:sd_read_inst|myvalid_o'
+Slack : -1.487
+TNS   : -20.818
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'fdd140cntrl:k2|sd_top:sdcrd2|sd_card:sdcrd1|sd_read:sd_read_inst|myvalid_o'
+Slack : -1.487
+TNS   : -19.331
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'segm:hex1|_step'
+Slack : -1.487
+TNS   : -19.331
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'agat9:agat|agclk:aclk|phi_2'
+Slack : -1.487
+TNS   : -12.111
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'vga1024x768_v2:vga|y[8]'
+Slack : -1.487
+TNS   : -8.922
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'vga1024x768_v2:vga|countXapple[1]'
+Slack : -1.487
+TNS   : -5.948
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'fdd140cntrl:k2|sd_top:sdcrd2|sd_card:sdcrd1|count_clk[3]'
+Slack : -1.487
+TNS   : -1.487
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'fdd840cntrl:k1|fdd840aim:fdd840|rk[7]'
+Slack : -1.487
+TNS   : -1.487
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'fdd840cntrl:k1|sd_top:sdcrd1|sd_card:sdcrd1|count_clk[3]'
+Slack : -1.487
+TNS   : -1.487
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'cristall1|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 4.644
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'cristall1|altpll_component|auto_generated|pll1|clk[2]'
+Slack : 4.660
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'cristall1|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 4.699
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'cristall1|altpll_component|auto_generated|pll1|clk[3]'
+Slack : 7.339
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk50'
+Slack : 9.568
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'cristall1|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -7.346
+TNS   : -987.073
+
+Type  : Fast 1200mV 0C Model Setup 'cristall1|altpll_component|auto_generated|pll1|clk[2]'
+Slack : -5.153
+TNS   : -162.519
+
+Type  : Fast 1200mV 0C Model Setup 'agat9:agat|agclk:aclk|phi_1'
+Slack : -4.558
+TNS   : -457.717
+
+Type  : Fast 1200mV 0C Model Setup 'cristall1|altpll_component|auto_generated|pll1|clk[3]'
+Slack : -4.430
+TNS   : -232.906
+
+Type  : Fast 1200mV 0C Model Setup 'agat9:agat|agclk:aclk|phi_2'
+Slack : -4.351
+TNS   : -32.266
+
+Type  : Fast 1200mV 0C Model Setup 'fdd840cntrl:k1|fdd840aim:fdd840|spin~0'
+Slack : -4.249
+TNS   : -137.358
+
+Type  : Fast 1200mV 0C Model Setup 'cristall1|altpll_component|auto_generated|pll1|clk[1]'
+Slack : -3.819
+TNS   : -132.061
+
+Type  : Fast 1200mV 0C Model Setup 'vga1024x768_v2:vga|countXapple[1]'
+Slack : -3.471
+TNS   : -13.764
+
+Type  : Fast 1200mV 0C Model Setup 'clk50'
+Slack : -2.518
+TNS   : -30.530
+
+Type  : Fast 1200mV 0C Model Setup 'fdd140cntrl:k2|sd_top:sdcrd2|sd_card:sdcrd1|SD_clk'
+Slack : -2.473
+TNS   : -772.340
+
+Type  : Fast 1200mV 0C Model Setup 'agat9:agat|clk_div:cpuclks|clksys'
+Slack : -2.299
+TNS   : -13.427
+
+Type  : Fast 1200mV 0C Model Setup 'vga1024x768_v2:vga|x[0]'
+Slack : -2.297
+TNS   : -15.342
+
+Type  : Fast 1200mV 0C Model Setup 'fdd840cntrl:k1|sd_top:sdcrd1|sd_card:sdcrd1|SD_clk'
+Slack : -2.114
+TNS   : -722.697
+
+Type  : Fast 1200mV 0C Model Setup 'mag_keys:mkey|altera_up_ps2:ps2|altera_up_ps2_data_in:PS2_Data_In|received_data_en'
+Slack : -1.962
+TNS   : -142.001
+
+Type  : Fast 1200mV 0C Model Setup 'segm:hex1|_step'
+Slack : -1.898
+TNS   : -12.068
+
+Type  : Fast 1200mV 0C Model Setup 'fdd840cntrl:k1|sd_top:sdcrd1|sd_card:sdcrd1|sd_read:sd_read_inst|myvalid_o'
+Slack : -0.388
+TNS   : -2.340
+
+Type  : Fast 1200mV 0C Model Setup 'fdd140cntrl:k2|sd_top:sdcrd2|sd_card:sdcrd1|sd_read:sd_read_inst|myvalid_o'
+Slack : -0.173
+TNS   : -0.618
+
+Type  : Fast 1200mV 0C Model Setup 'fdd140cntrl:k2|sd_top:sdcrd2|sd_card:sdcrd1|count_clk[3]'
+Slack : -0.018
+TNS   : -0.018
+
+Type  : Fast 1200mV 0C Model Setup 'fdd840cntrl:k1|sd_top:sdcrd1|sd_card:sdcrd1|count_clk[3]'
+Slack : 0.018
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'vga1024x768_v2:vga|y[8]'
+Slack : 0.084
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'agat9:agat|agclk:aclk|phi_1'
+Slack : -0.450
+TNS   : -1.727
+
+Type  : Fast 1200mV 0C Model Hold 'cristall1|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -0.221
+TNS   : -0.248
+
+Type  : Fast 1200mV 0C Model Hold 'agat9:agat|agclk:aclk|phi_2'
+Slack : -0.074
+TNS   : -0.074
+
+Type  : Fast 1200mV 0C Model Hold 'cristall1|altpll_component|auto_generated|pll1|clk[3]'
+Slack : -0.021
+TNS   : -0.033
+
+Type  : Fast 1200mV 0C Model Hold 'agat9:agat|clk_div:cpuclks|clksys'
+Slack : 0.045
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'clk50'
+Slack : 0.129
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'mag_keys:mkey|altera_up_ps2:ps2|altera_up_ps2_data_in:PS2_Data_In|received_data_en'
+Slack : 0.131
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'fdd840cntrl:k1|sd_top:sdcrd1|sd_card:sdcrd1|SD_clk'
+Slack : 0.176
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'fdd140cntrl:k2|sd_top:sdcrd2|sd_card:sdcrd1|SD_clk'
+Slack : 0.177
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'cristall1|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 0.187
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'fdd840cntrl:k1|fdd840aim:fdd840|spin~0'
+Slack : 0.187
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'cristall1|altpll_component|auto_generated|pll1|clk[2]'
+Slack : 0.188
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'fdd140cntrl:k2|sd_top:sdcrd2|sd_card:sdcrd1|sd_read:sd_read_inst|myvalid_o'
+Slack : 0.193
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'fdd840cntrl:k1|sd_top:sdcrd1|sd_card:sdcrd1|sd_read:sd_read_inst|myvalid_o'
+Slack : 0.194
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'segm:hex1|_step'
+Slack : 0.194
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'vga1024x768_v2:vga|countXapple[1]'
+Slack : 0.208
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'vga1024x768_v2:vga|y[8]'
+Slack : 0.208
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'fdd840cntrl:k1|sd_top:sdcrd1|sd_card:sdcrd1|count_clk[3]'
+Slack : 0.211
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'fdd140cntrl:k2|sd_top:sdcrd2|sd_card:sdcrd1|count_clk[3]'
+Slack : 0.252
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'vga1024x768_v2:vga|x[0]'
+Slack : 0.275
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'agat9:agat|agclk:aclk|phi_1'
+Slack : -4.009
+TNS   : -183.295
+
+Type  : Fast 1200mV 0C Model Recovery 'cristall1|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -3.817
+TNS   : -294.370
+
+Type  : Fast 1200mV 0C Model Recovery 'fdd840cntrl:k1|fdd840aim:fdd840|spin~0'
+Slack : -1.746
+TNS   : -57.951
+
+Type  : Fast 1200mV 0C Model Recovery 'fdd840cntrl:k1|sd_top:sdcrd1|sd_card:sdcrd1|SD_clk'
+Slack : -1.618
+TNS   : -71.512
+
+Type  : Fast 1200mV 0C Model Recovery 'fdd140cntrl:k2|sd_top:sdcrd2|sd_card:sdcrd1|SD_clk'
+Slack : -1.444
+TNS   : -61.551
+
+Type  : Fast 1200mV 0C Model Recovery 'fdd840cntrl:k1|sd_top:sdcrd1|sd_card:sdcrd1|sd_read:sd_read_inst|myvalid_o'
+Slack : -1.430
+TNS   : -19.929
+
+Type  : Fast 1200mV 0C Model Recovery 'fdd140cntrl:k2|sd_top:sdcrd2|sd_card:sdcrd1|sd_read:sd_read_inst|myvalid_o'
+Slack : -1.335
+TNS   : -17.355
+
+Type  : Fast 1200mV 0C Model Recovery 'fdd840cntrl:k1|fdd840aim:fdd840|rk[7]'
+Slack : -1.149
+TNS   : -1.149
+
+Type  : Fast 1200mV 0C Model Recovery 'vga1024x768_v2:vga|y[8]'
+Slack : 0.121
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'cristall1|altpll_component|auto_generated|pll1|clk[2]'
+Slack : 5.154
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'cristall1|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 8.179
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'agat9:agat|agclk:aclk|phi_1'
+Slack : 0.191
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'vga1024x768_v2:vga|y[8]'
+Slack : 0.494
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'fdd840cntrl:k1|fdd840aim:fdd840|spin~0'
+Slack : 0.579
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'fdd840cntrl:k1|sd_top:sdcrd1|sd_card:sdcrd1|SD_clk'
+Slack : 0.739
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'fdd140cntrl:k2|sd_top:sdcrd2|sd_card:sdcrd1|SD_clk'
+Slack : 0.790
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'fdd140cntrl:k2|sd_top:sdcrd2|sd_card:sdcrd1|sd_read:sd_read_inst|myvalid_o'
+Slack : 1.198
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'fdd840cntrl:k1|sd_top:sdcrd1|sd_card:sdcrd1|sd_read:sd_read_inst|myvalid_o'
+Slack : 1.296
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'cristall1|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 1.371
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'cristall1|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 1.526
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'fdd840cntrl:k1|fdd840aim:fdd840|rk[7]'
+Slack : 1.793
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'cristall1|altpll_component|auto_generated|pll1|clk[2]'
+Slack : 3.744
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'fdd140cntrl:k2|sd_top:sdcrd2|sd_card:sdcrd1|SD_clk'
+Slack : -1.000
+TNS   : -524.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'fdd840cntrl:k1|sd_top:sdcrd1|sd_card:sdcrd1|SD_clk'
+Slack : -1.000
+TNS   : -524.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'agat9:agat|agclk:aclk|phi_1'
+Slack : -1.000
+TNS   : -220.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'mag_keys:mkey|altera_up_ps2:ps2|altera_up_ps2_data_in:PS2_Data_In|received_data_en'
+Slack : -1.000
+TNS   : -126.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'fdd840cntrl:k1|fdd840aim:fdd840|spin~0'
+Slack : -1.000
+TNS   : -51.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'agat9:agat|clk_div:cpuclks|clksys'
+Slack : -1.000
+TNS   : -19.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'vga1024x768_v2:vga|x[0]'
+Slack : -1.000
+TNS   : -15.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'fdd840cntrl:k1|sd_top:sdcrd1|sd_card:sdcrd1|sd_read:sd_read_inst|myvalid_o'
+Slack : -1.000
+TNS   : -14.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'fdd140cntrl:k2|sd_top:sdcrd2|sd_card:sdcrd1|sd_read:sd_read_inst|myvalid_o'
+Slack : -1.000
+TNS   : -13.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'segm:hex1|_step'
+Slack : -1.000
+TNS   : -13.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'agat9:agat|agclk:aclk|phi_2'
+Slack : -1.000
+TNS   : -8.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'vga1024x768_v2:vga|y[8]'
+Slack : -1.000
+TNS   : -6.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'vga1024x768_v2:vga|countXapple[1]'
+Slack : -1.000
+TNS   : -4.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'fdd140cntrl:k2|sd_top:sdcrd2|sd_card:sdcrd1|count_clk[3]'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'fdd840cntrl:k1|fdd840aim:fdd840|rk[7]'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'fdd840cntrl:k1|sd_top:sdcrd1|sd_card:sdcrd1|count_clk[3]'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'cristall1|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 4.745
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'cristall1|altpll_component|auto_generated|pll1|clk[2]'
+Slack : 4.747
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'cristall1|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 4.786
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'cristall1|altpll_component|auto_generated|pll1|clk[3]'
+Slack : 7.472
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk50'
+Slack : 9.271
+TNS   : 0.000
+
+------------------------------------------------------------
