@@ -1,4 +1,4 @@
-# agatf_pga
+# agat_fpga
 <B>- Агат-9 на ФПГА</B></Br>
 
 <B>Идея:</B></Br>
